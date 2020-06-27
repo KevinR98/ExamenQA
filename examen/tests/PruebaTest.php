@@ -7,9 +7,11 @@ class PruebaTest extends TestCase
 {
     public function testCanBeUsedAsString()
     {
+        require_once ('src/Prueba.php');
+        $objeto = new Prueba();
         $this->assertEquals(
-            'user@example.com',
-            'user@example.com'
+            100,
+            $objeto->funcion()
         );
     }
 }
