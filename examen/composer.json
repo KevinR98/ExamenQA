@@ -1,0 +1,16 @@
+{
+  "name": "vendor_name/examen",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kevinrojas",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7",
+    "phpunit/phpunit": "^9"
+  }
+}
