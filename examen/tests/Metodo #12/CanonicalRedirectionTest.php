@@ -3,7 +3,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class PruebaTest extends TestCase
+class CanonicalRedirectionTest extends TestCase
 {
     public function testPrimeraPrueba()
     {

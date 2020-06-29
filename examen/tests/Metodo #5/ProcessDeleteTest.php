@@ -3,7 +3,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class PruebaTest extends TestCase
+class ProcessDeleteTest extends TestCase
 {
     public function testPrimeraPrueba()
     {
