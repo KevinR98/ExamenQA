@@ -23,11 +23,11 @@
  * @license   https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
-use PrestaShop\PrestaShop\Adapter\ContainerBuilder;
-use PrestaShop\PrestaShop\Core\Feature\TokenInUrls;
-use PrestaShop\PrestaShop\Core\Localization\Locale;
-use PrestaShop\PrestaShop\Core\Localization\Specification\Price as PriceSpecification;
-use PrestaShop\PrestaShop\Core\Localization\Specification\Number as NumberSpecification;
+use src\AdminController\Adapter\ContainerBuilder;
+use src\AdminController\Core\Feature\TokenInUrls;
+use src\AdminController\Core\Localization\Locale;
+use src\AdminController\Core\Localization\Specification\Price as PriceSpecification;
+use src\AdminController\Core\Localization\Specification\Number as NumberSpecification;
 
 class AdminControllerCore extends Controller
 {

@@ -1,23 +1,16 @@
 <?php
 
-
 use PHPUnit\Framework\TestCase;
+include "../config.php";
 
 class PruebaTest extends TestCase
 {
-    public function testPrimeraPrueba()
+    public function testSameInt()
     {
-        require_once ('src/Prueba.php');
-        $objeto = new Prueba();
-        $this->assertEquals(
-            100,
-            $objeto->funcion()
-        );
-    }
+        require_once(ROOT.'/src/Prueba.php');
+        //require_once('/Users/kevinrojas/Desktop/Examen QA I/ExamenQA/examen/src/Prueba.php');
 
-    public function testSegundaPrueba()
-    {
-        require_once ('src/Prueba.php');
+
         $objeto = new Prueba();
         $this->assertEquals(
             100,
