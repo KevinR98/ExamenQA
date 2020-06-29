@@ -1,1 +1,1 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":212:{a:2:{s:7:"defects";a:2:{s:33:"PruebaTest::testCanBeUsedAsString";i:4;s:23:"PruebaTest::testSameInt";i:4;}s:5:"times";a:2:{s:33:"PruebaTest::testCanBeUsedAsString";d:0.069;s:23:"PruebaTest::testSameInt";d:0.009;}}}
+C:37:"PHPUnit\Runner\DefaultTestResultCache":212:{a:2:{s:7:"defects";a:2:{s:33:"PruebaTest::testCanBeUsedAsString";i:4;s:23:"PruebaTest::testSameInt";i:4;}s:5:"times";a:2:{s:33:"PruebaTest::testCanBeUsedAsString";d:0.069;s:23:"PruebaTest::testSameInt";d:0.027;}}}
